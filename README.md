@@ -2,6 +2,7 @@
 Proyectos con javax.Swing
 
 PROYECTO(1) inventarioSwing
+
 A) BASE DE DATOS (mysql 8.0.22): 
 liceo.sql
 
@@ -17,6 +18,7 @@ además también podemos visualizar mediante un JTable, los productos actuales, 
 Para finalizar, se comprueba mediante JUnit4 la validez del objeto conexión, descartando así errores de persistencia.
 
 PROYECTO(2) layouts
+
 Programa básico para analizar los diferentes tipos de maquetaciones en javax.Swing.
 
 
