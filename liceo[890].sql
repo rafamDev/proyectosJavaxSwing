@@ -42,7 +42,7 @@ DELIMITER $$
  FOR EACH ROW 
   BEGIN
     IF NEW.Motivo IS NOT NULL && NEW.FecBaja IS NOT NULL THEN
-	    INSERT INTO Historico(Cod,Des,Tipo,Marca,Modelo,NumSerie,Resp,Local,FecAlta,FecMod,FecBaja,Motivo,Obs)
+	INSERT INTO Historico(Cod,Des,Tipo,Marca,Modelo,NumSerie,Resp,Local,FecAlta,FecMod,FecBaja,Motivo,Obs)
         VALUES(NEW.Cod,NEW.Des,NEW.Tipo,NEW.Marca,NEW.Modelo,NEW.NumSerie,NEW.Resp,NEW.Local,NEW.FecAlta,NEW.FecMod,NEW.FecBaja,NEW.Motivo,NEW.Obs);
     END IF;
   END $$
