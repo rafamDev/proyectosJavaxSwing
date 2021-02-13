@@ -2,6 +2,7 @@
 Proyectos con javax.Swing
 
 PROYECTO(1) inventarioSwing
+
 BASE DE DATOS (mysql 8.0.22): 
 liceo.sql
 
