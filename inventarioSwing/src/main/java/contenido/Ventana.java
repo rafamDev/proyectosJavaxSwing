@@ -431,8 +431,9 @@ public class Ventana extends JFrame {
 		 limpiarDatos();
 	         conexion.close();
 	 	
-	 }else if(verificarDatos() == true && verificacionCodigo() == true){
-	         this.instruccionSQL ="UPDATE actual SET Des=?,Tipo=?,"
+	 }
+	 if(verificarDatos() == true && verificacionCodigo() == true){
+	      this.instruccionSQL ="UPDATE actual SET Des=?,Tipo=?,"
 	         + "Marca=?,Modelo=?,NumSerie=?,Resp=?,Local=?,"
 		 + "FecAlta=?,FecMod=?,Obs=? WHERE Cod=?;";
 	 	 conexion = crearConexion(URL_BASE_DATOS);
