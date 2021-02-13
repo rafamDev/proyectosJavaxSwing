@@ -23,6 +23,10 @@ Programa básico para analizar los diferentes tipos de maquetaciones en javax.Sw
 
 PROYECTO(3) TresEnRaya
 
-Tres en raya, utilizando javax.Swing.
+Tres en raya, utilizando javax.Swing, el cual le proporciona una forma más visual a este clásico juego. 
+
+PROYECTO(4) editorTXT
+
+Editor de texto, utilizando javax.Swing, con el objetivo de manipular ficheros.
 
 
