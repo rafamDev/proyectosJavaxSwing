@@ -21,4 +21,8 @@ PROYECTO(2) layouts
 
 Programa básico para analizar los diferentes tipos de maquetaciones en javax.Swing.
 
+PROYECTO(3) TresEnRaya
+
+Tres en raya, utilizando javax.Swing.
+
 
