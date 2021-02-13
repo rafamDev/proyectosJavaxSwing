@@ -19,7 +19,7 @@ public class Tablero extends JPanel {
 		Random rand = new Random();
 		return rand.nextInt((max - min) + 1) + min;
 	}
-    //(Math.random() * 2) + 1; nextInt(2)+1;
+        //(Math.random() * 2) + 1; nextInt(2)+1;
 	//(0,1) 1-0, +1 = (enre 0 y 1) + 0 desde 0 hasta 1
 	//(2,5) 5-2 3+1 (entre 0 y 3) + 2 entre 2 y 5.
 	
