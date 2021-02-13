@@ -19,8 +19,8 @@ public class Tablero extends JPanel {
 		Random rand = new Random();
 		return rand.nextInt((max - min) + 1) + min;
 	}
-    //(Math.random() * 2) + 1; nextInt(2)+1;
-	//(0,1) 1-0, +1 = (enre 0 y 1) + 0 desde 0 hasta 1
+        //(Math.random() * 2) + 1; nextInt(2)+1;
+	//(0,1) 1-0, +1 = (entre 0 y 1) + 0 desde 0 hasta 1
 	//(2,5) 5-2 3+1 (entre 0 y 3) + 2 entre 2 y 5.
 	
 	private Ventana ventana;
@@ -112,12 +112,21 @@ public class Tablero extends JPanel {
 	}
 
 	private void crearBotones() {
+<<<<<<< HEAD
 	  this.botones = new Boton[this.filas][this.columnas];
 		for (int fila = 0; fila < this.filas; fila++) {
 			for (int columna = 0; columna < this.columnas; columna++) {
 				this.botones[fila][columna] = new Boton(this, fila, columna);
 				add(this.botones[fila][columna]);
 			}
+=======
+	   this.botones = new Boton[this.filas][this.columnas];
+	      for (int fila = 0; fila < this.filas; fila++) {
+		for (int columna = 0; columna < this.columnas; columna++) {
+		     this.botones[fila][columna] = new Boton(this, fila, columna);
+			add(this.botones[fila][columna]);
+		     }
+>>>>>>> 3fe7923a25be7335733bd9443c5a3c242f8475ac
 		}
 	}
 

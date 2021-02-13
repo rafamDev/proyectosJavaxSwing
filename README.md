@@ -3,7 +3,7 @@ Proyectos con javax.Swing
 
 PROYECTO(1) inventarioSwing
 
-A) BASE DE DATOS (mysql 8.0.22): 
+BASE DE DATOS (mysql 8.0.22): 
 liceo.sql
 
 B) FUNCION DEL PROGRAMA:
@@ -20,5 +20,13 @@ Para finalizar, se comprueba mediante JUnit4 la validez del objeto conexión, de
 PROYECTO(2) layouts
 
 Programa básico para analizar los diferentes tipos de maquetaciones en javax.Swing.
+
+PROYECTO(3) TresEnRaya
+
+Tres en raya, utilizando javax.Swing, el cual le proporciona una forma más visual a este clásico juego. 
+
+PROYECTO(4) editorTXT
+
+Editor de texto, utilizando javax.Swing, con el objetivo de manipular ficheros.
 
 
