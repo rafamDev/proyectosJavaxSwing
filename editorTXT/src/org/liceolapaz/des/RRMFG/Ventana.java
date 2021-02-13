@@ -1,4 +1,4 @@
-package org.liceolapaz.des.rrmfg;
+package org.liceolapaz.des.RRMFG;
 
 
 import java.awt.BorderLayout;

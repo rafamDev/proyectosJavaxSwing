@@ -46,8 +46,8 @@ public class Ventana extends JFrame {
 	private JTextField txtMotivoDeBaja;
 	private JTextArea areaObservaciones;
 	private String instruccionSQL;
-        private ResultSet rst;
-        private Statement st;
+    private ResultSet rst;
+    private Statement st;
 	private PreparedStatement ps;
 	
 	private static final String URL_BASE_DATOS = "jdbc:mysql://localhost:3306/liceo?useSSL=false&serverTimezone=Europe/Madrid";
@@ -57,13 +57,13 @@ public class Ventana extends JFrame {
 	  this.dialogo = dialogo;
 	  this.usuario = usuario;
 	  this.password = password;
-          setSize(1100, 650);
-          setLayout(new GridLayout(2,1));
+      setSize(1100, 650);
+      setLayout(new GridLayout(2,1));
 	  setLocationRelativeTo(null);
 	  setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	  setTitle("Inventario");
 	  setLayout(new GridLayout(1,2,10,10));
-          componentes();
+      componentes();
 	  try{
 	    Class.forName("com.mysql.cj.jdbc.Driver");
 		}catch (ClassNotFoundException e){
