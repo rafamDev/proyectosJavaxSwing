@@ -191,7 +191,7 @@ public class Ventana extends JFrame {
         String texto = "";
     	if(this.ruta.endsWith(".txt")){
         	 while((linea = br.readLine()) != null){
-    		//El br no para hasta que no de tecta linea en blanco o salto de linea.
+    		//El br no para hasta que no detecta linea en blanco o salto de linea.
     	          texto = texto + linea + "\n";
                   this.txt.setText(texto);
     		 }

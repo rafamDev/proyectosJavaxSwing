@@ -112,21 +112,12 @@ public class Tablero extends JPanel {
 	}
 
 	private void crearBotones() {
-<<<<<<< HEAD
-	  this.botones = new Boton[this.filas][this.columnas];
+      this.botones = new Boton[this.filas][this.columnas];
 		for (int fila = 0; fila < this.filas; fila++) {
 			for (int columna = 0; columna < this.columnas; columna++) {
 				this.botones[fila][columna] = new Boton(this, fila, columna);
 				add(this.botones[fila][columna]);
 			}
-=======
-	   this.botones = new Boton[this.filas][this.columnas];
-	      for (int fila = 0; fila < this.filas; fila++) {
-		for (int columna = 0; columna < this.columnas; columna++) {
-		     this.botones[fila][columna] = new Boton(this, fila, columna);
-			add(this.botones[fila][columna]);
-		     }
->>>>>>> 3fe7923a25be7335733bd9443c5a3c242f8475ac
 		}
 	}
 
