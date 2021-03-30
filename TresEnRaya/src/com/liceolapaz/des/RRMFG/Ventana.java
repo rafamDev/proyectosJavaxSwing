@@ -13,8 +13,6 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.KeyStroke;
 
-
-
 public class Ventana extends JFrame {
 	private Tablero tablero;
 
@@ -33,7 +31,7 @@ public class Ventana extends JFrame {
 
 	public void cambiarTurno(int turno) {
 		if (turno == Tablero.CIRCULO) {
-			setTitle("Jugador 1 (Círculo)");
+			setTitle("Jugador 1 (Cï¿½rculo)");
 		} else if (turno == Tablero.CRUZ) {
 			setTitle("Jugador 2 (Cruz)");
 		}
@@ -84,7 +82,7 @@ public class Ventana extends JFrame {
 		String mensaje = "";
 		switch (resultado) {
 		case Tablero.CIRCULO:
-			mensaje = "Ha ganado el jugador 1 (Círculo)";
+			mensaje = "Ha ganado el jugador 1 (Cï¿½rculo)";
 			break;
 		case Tablero.CRUZ:
 			mensaje = "Ha ganado el jugador 2 (Cruz)";
